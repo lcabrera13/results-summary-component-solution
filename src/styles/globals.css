@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#ebf1ff] h-full overflow-x-hidden;
+}
+  
+#__next {
+    @apply h-full flex justify-center items-start md:items-center;
+}
+  
+html {
+    @apply h-full;
+}

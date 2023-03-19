@@ -1,0 +1,14 @@
+{
+  "extends": ["next/core-web-vitals", "./node_modules/standard/eslintrc.json"],
+  "rules": {
+    "space-before-function-paren": "off",
+    "no-case-declarations": "off",
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": false
+      }
+    ]
+  }
+}
