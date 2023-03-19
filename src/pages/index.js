@@ -8,7 +8,7 @@ function HomePage() {
       <Head>
         <title>Frontend Mentor | Results summary component</title>
       </Head>
-      <div className='bg-white md:rounded-2xl flex flex-col md:flex-row'>
+      <main className='bg-white md:rounded-2xl flex flex-col md:flex-row'>
         <div className='md:w-1/2 bg-gradient-to-b from-[#7857ff] via-[#2e2be9] to-[#2e2be9] flex flex-col items-center gap-3 md:justify-between px-10 py-5 rounded-b-2xl md:rounded-t-2xl'>
           <div className='text-[#c8c7ff] font-semibold text-sm'>Your Result</div>
           <div className='bg-gradient-to-b from-[#2421ca] via-[#2421ca] to-[#4e21ca] rounded-full px-10 md:px-12 py-8 md:py-10 text-center'>
@@ -44,7 +44,7 @@ function HomePage() {
             </button>
           </div>
         </div>
-      </div>
+      </main>
     </>
   )
 }
